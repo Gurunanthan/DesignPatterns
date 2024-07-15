@@ -60,3 +60,60 @@ class EmployeeRepository {
         System.out.println("Saving data for " + employee.getName() + ": Hours Worked - " + employee.getHoursWorked() + ", Hourly Rate - " + employee.getHourlyRate() + ", Salary - " + employee.getSalary());
     }
 }
+
+
+// class employee{
+//     private String name;
+//     private String gender;
+//     private int age;
+    
+//     public employee(String name,String gender,int age){
+//         this.name = name;
+//         this.gender = gender;
+//         this.age = age;
+//     }
+    
+//     public String getName(){
+//         return name;
+//     }
+    
+//     public String getGender(){
+//         return gender;
+//     }
+    
+//     public int getAge(){
+//         return age;
+//     }
+    
+//     public void setName(String newName)
+//     {
+//         this.name = newName;
+//     }
+    
+//     public void setGender(String newGender)
+//     {
+//         this.gender = newGender;
+//     }
+    
+//     public void setAge(int newAge)
+//     {
+//         this.age = newAge;
+//     }
+    
+// }
+
+// class nameGetter{
+//     static void theNameGetter(employee emp)
+//     {
+//         System.out.println(emp.getName());
+//     }
+// }
+
+// public class main{
+//     public static void main(String args[])
+//     {
+//         employee guru = new employee("guru","male",5);
+//         nameGetter.theNameGetter(guru);
+        
+//     }
+// }
